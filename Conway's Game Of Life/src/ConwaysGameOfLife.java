@@ -1,5 +1,20 @@
 public class ConwaysGameOfLife {
     public static void main(String[] args) throws Exception {
+
+        // Bem vindo ao Conway's Game Of Life! Segue abaixo alguns exemplos de uso:
+
+        // 1.
+        // . # .       . . .       . # .
+        // . # .  ->   # # #  ->   . # .
+        // . # .       . . .       . # .
+
+        // 2.
+        // . . # . . .       . . . . . .       . . . . . .       . . . . . .       . . . . . .
+        // . . . # . .       . # . # . .       . . . # . .       . . # . . .       . . . # . .
+        // . # # # . .  ->   . . # # . .  ->   . # . # . .  ->   . . . # # .  ->   . . . . # .
+        // . . . . . .       . . # . . .       . . # # . .       . . # # . .       . . # # # .
+        // . . . . . .       . . . . . .       . . . . . .       . . . . . .       . . . . . .
+
         boolean tudoVazio = true;
         int contagemCasasVivasAdjacentes = 0;
 

@@ -15,20 +15,6 @@ Ao passar das gerações, células ganham vida ou morrem a cada quadro. Estas s�
 - Continuidade: Qualquer célula viva com 2 OU 3 vizinhas vivas continua viva para a próxima geração.
 - Reprodução: Qualquer célula morta com EXATAMENTE 3 vizinhas vivas ganha vida.
 
-Exemplos:
-
-1.
-. # .       . . .       . # .
-. # .  ->   # # #  ->   . # .
-. # .       . . .       . # .
-
-2.
-. . # . . .       . . . . . .       . . . . . .       . . . . . .       . . . . . .
-. . . # . .       . # . # . .       . . . # . .       . . # . . .       . . . # . .
-. # # # . .  ->   . . # # . .  ->   . # . # . .  ->   . . . # # .  ->   . . . . # .
-. . . . . .       . . # . . .       . . # # . .       . . # # . .       . . # # # .
-. . . . . .       . . . . . .       . . . . . .       . . . . . .       . . . . . .
-
 OBSERVAÇÕES IMPORTANTES:
 
 - A matriz não deve ter dimensões distintas, ela deve ser totalmente simétrica, ou seja, mesmo número de linhas e colunas.
