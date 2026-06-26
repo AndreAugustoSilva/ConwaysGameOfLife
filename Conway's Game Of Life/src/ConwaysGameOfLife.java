@@ -1,4 +1,4 @@
-public class App {
+public class ConwaysGameOfLife {
     public static void main(String[] args) throws Exception {
         boolean tudoVazio = true;
         int contagemCasasVivasAdjacentes = 0;
@@ -78,12 +78,10 @@ public class App {
                     }
 
                     if(tabuleiro[contL][contC] == 0) {
-                        // Células mortas
                         if(contagemCasasVivasAdjacentes == 3) {
                             tabuleiro[contL][contC] = 2;
                         }
                     } else {
-                         // Células vivas
                          if(contagemCasasVivasAdjacentes < 2 || contagemCasasVivasAdjacentes > 3) {
                             tabuleiro[contL][contC] = 3;
                          }
